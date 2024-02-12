@@ -20,6 +20,7 @@ def home():
     
     return render_template('home.html', category_x = data, category_y = data2)
     
+
     
 @app.route('/upload', methods=['POST', 'GET'])
 def add_product():
